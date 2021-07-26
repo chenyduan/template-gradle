@@ -1,0 +1,4 @@
+rootProject.name = 'gradle-parent'
+include 'gradle-dependencies'
+include 'gradle-user'
+

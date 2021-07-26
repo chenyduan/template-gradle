@@ -1,0 +1,13 @@
+plugins {
+    id 'java'
+}
+
+
+
+dependencies {
+    //引入依赖版本统一管理模块
+    implementation platform(project(':gradle-dependencies'))
+    //引入不带版本的具体依赖
+    implementation(group: 'org.springframework.boot', name: 'spring-boot-starter-web')
+
+}
