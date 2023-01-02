@@ -2,7 +2,7 @@ plugins {
     id 'java-platform' // 引入 java-platform插件
     id 'maven-publish' // 发布插件，可用来发布 BOM 或 jar到本地与远程仓库
 }
-// 通过这个配置可以让Gradle允许引入依赖，当然这是可选的
+// 通过这个配置可以让Gradle允许引入依赖，可选
 javaPlatform {
     allowDependencies()
 }
