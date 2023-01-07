@@ -1,0 +1,23 @@
+plugins {
+    id 'java-library'
+    id 'maven-publish'
+}
+
+version = '0.0.1'
+
+dependencies {
+
+}
+
+test {
+
+}
+
+publishing{
+    publications{
+        maven(MavenPublication) {
+            //通过java-platform生成BOM
+            from components.java
+        }
+    }
+}

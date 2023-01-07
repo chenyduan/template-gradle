@@ -2,10 +2,10 @@ plugins {
     id 'java'
 }
 
-
+version = '0.0.1'
 //所有项目配置,包括父工程
 allprojects {
-    group 'org.snow'
+    group 'org.example'
     //同上让Gradle自动生成Intellij的项目文件
     apply plugin: 'idea'
 
@@ -20,6 +20,9 @@ allprojects {
      * 仓库配置
      */
     repositories {
+        flatDir {
+            dirs 'gradle-library'
+        }
         // 引本地仓库
         mavenLocal()
         maven { url 'https://maven.aliyun.com/repository/google/' }

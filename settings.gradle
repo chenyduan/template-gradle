@@ -1,4 +1,5 @@
-rootProject.name = 'gradle-parent'
+rootProject.name = 'spring-boot-template'
 include 'gradle-dependencies'
-include 'gradle-user'
+include 'gradle-application'
+include 'gradle-library'
 
