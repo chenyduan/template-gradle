@@ -11,5 +11,9 @@ A simple gradle multi-module project example
 > > server : spring boot web example
 >
 ## Run
+
+
 You need to publish the platform module locally first, as shown here:
+
+
 ![img.png](img.png)
