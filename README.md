@@ -9,3 +9,7 @@ A simple gradle multi-module project example
 > > common-lib : library module, define public dependencies for other modules to use.
 > 
 > > server : spring boot web example
+>
+## Run
+You need to publish the platform module locally first, as shown here:
+![img.png](img.png)
